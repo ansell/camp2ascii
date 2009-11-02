@@ -9,7 +9,7 @@
 #ifndef CAMP2ASCII_H
 #define CAMP2ASCII_H
 
-#define RELEASE "0.99.5"	//program version number
-#define DATE "2007-10-12"	//date of the release
+#define RELEASE "0.99.6"	//program version number
+#define DATE "2009-11-02"	//date of the release
 
 #endif
