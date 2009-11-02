@@ -1,0 +1,17 @@
+* text=auto !eol
+/Makefile -text
+/camp2ascii.c -text
+/camp2ascii.h -text
+/camp2ascii.lsm -text
+/files.c -text
+/files.h -text
+/frame_read.c -text
+/frame_read.h -text
+/generic_functions.c -text
+/generic_functions.h -text
+/initializations.c -text
+/initializations.h -text
+/limits.h -text
+/structures.h -text
+/types_processing.c -text
+/types_processing.h -text

@@ -1,0 +1,14 @@
+Begin3
+Title:          camp2ascii 
+Version:        0.99.5
+Entered-date:   2007-10-12
+Description:    Converter for Campbell Scientific binary files, versions tob1, tob2 and tob3
+Keywords:       campbell tob2 tob3 tob32 data logger
+Author:         Mathias Bavay <apbg4@free.fr> 
+Maintained-by:  Mathias Bavay <apbg4@free.fr> 
+Primary-site:	
+Home-page:      
+Original-site:  
+Platforms:      Posix (Linux, Unix, osX, Cygwin)
+Copying-policy: GNU Public License
+End
