@@ -1,0 +1,578 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+"http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: fig2dev Version 3.2 Patchlevel 5a -->
+<!-- CreationDate: Tue Jun  7 16:26:27 2011 -->
+<!-- Magnification: 1.000 -->
+<svg xmlns="http://www.w3.org/2000/svg" width="10.6in" height="9.4in" viewBox="-45 -651 12777 11242">
+<g style="stroke-width:.025in; fill:none">
+<!-- Line: box -->
+<rect x="150" y="6900" width="12150" height="2550" rx="0" 
+style="stroke:#000000;stroke-width:30;
+stroke-linejoin:miter; stroke-linecap:butt;
+"/>
+<!-- Line -->
+<polyline points="8461,4939
+8463,4938
+8467,4935
+8472,4930
+8478,4923
+8483,4914
+8487,4902
+8490,4888
+8493,4869
+8495,4847
+8496,4832
+8497,4815
+8498,4797
+8499,4777
+8499,4756
+8500,4734
+8501,4710
+8501,4686
+8502,4661
+8503,4637
+8503,4613
+8504,4589
+8505,4567
+8505,4546
+8506,4526
+8507,4508
+8508,4491
+8509,4477
+8511,4454
+8514,4435
+8517,4421
+8521,4409
+8526,4400
+8532,4393
+8537,4388
+8541,4385
+8543,4384
+8541,4383
+8537,4380
+8532,4375
+8526,4368
+8521,4359
+8517,4347
+8514,4333
+8511,4314
+8509,4291
+8508,4276
+8507,4260
+8506,4241
+8505,4222
+8505,4200
+8504,4178
+8503,4154
+8503,4130
+8502,4105
+8501,4081
+8501,4057
+8500,4033
+8499,4011
+8499,3989
+8498,3970
+8497,3951
+8496,3935
+8495,3920
+8493,3897
+8490,3878
+8487,3864
+8483,3852
+8478,3843
+8472,3836
+8467,3831
+8463,3828
+8461,3827
+" style="stroke:#803000;stroke-width:7;
+stroke-linejoin:bevel; stroke-linecap:butt;
+"/>
+<!-- Line -->
+<polyline points="8439,3804
+8441,3803
+8444,3801
+8449,3797
+8456,3792
+8464,3783
+8472,3773
+8479,3761
+8485,3746
+8491,3729
+8496,3709
+8500,3686
+8503,3658
+8506,3625
+8507,3605
+8508,3584
+8509,3562
+8511,3538
+8512,3512
+8513,3485
+8514,3457
+8515,3427
+8516,3396
+8516,3365
+8517,3333
+8518,3300
+8519,3267
+8520,3234
+8521,3201
+8522,3169
+8522,3138
+8523,3107
+8524,3077
+8525,3049
+8526,3022
+8527,2996
+8529,2972
+8530,2950
+8531,2929
+8532,2909
+8535,2876
+8538,2848
+8542,2825
+8547,2805
+8553,2788
+8559,2773
+8566,2761
+8574,2751
+8582,2742
+8589,2737
+8594,2733
+8597,2731
+8599,2730
+8597,2729
+8594,2727
+8589,2723
+8582,2718
+8574,2709
+8566,2699
+8559,2687
+8553,2672
+8547,2655
+8542,2635
+8538,2611
+8535,2584
+8532,2551
+8531,2531
+8530,2510
+8529,2487
+8527,2463
+8526,2438
+8525,2411
+8524,2382
+8523,2353
+8522,2322
+8522,2291
+8521,2258
+8520,2225
+8519,2192
+8518,2160
+8517,2127
+8516,2094
+8516,2063
+8515,2032
+8514,2003
+8513,1974
+8512,1947
+8511,1922
+8509,1898
+8508,1875
+8507,1854
+8506,1834
+8503,1801
+8500,1774
+8496,1750
+8491,1730
+8485,1713
+8479,1698
+8472,1686
+8464,1676
+8456,1667
+8449,1662
+8444,1658
+8441,1656
+8439,1655
+" style="stroke:#8f008f;stroke-width:7;
+stroke-linejoin:bevel; stroke-linecap:butt;
+"/>
+<!-- Line: box -->
+<rect x="600" y="3900" width="5100" height="300" rx="0" 
+style="stroke:#803000;stroke-width:15;
+stroke-linejoin:miter; stroke-linecap:butt;
+fill:#e5d5cc;
+"/>
+<!-- Line: box -->
+<rect x="5775" y="3900" width="2325" height="300" rx="0" 
+style="stroke:#803000;stroke-width:15;
+stroke-linejoin:miter; stroke-linecap:butt;
+fill:#e5d5cc;
+"/>
+<!-- Line: box -->
+<rect x="600" y="4275" width="2775" height="300" rx="0" 
+style="stroke:#803000;stroke-width:15;
+stroke-linejoin:miter; stroke-linecap:butt;
+fill:#e5d5cc;
+"/>
+<!-- Line: box -->
+<rect x="3450" y="4275" width="4650" height="300" rx="0" 
+style="stroke:#803000;stroke-width:15;
+stroke-linejoin:miter; stroke-linecap:butt;
+fill:#e5d5cc;
+"/>
+<!-- Line: box -->
+<rect x="1125" y="4650" width="5100" height="300" rx="0" 
+style="stroke:#803000;stroke-width:15;
+stroke-linejoin:miter; stroke-linecap:butt;
+fill:#e5d5cc;
+"/>
+<!-- Line: box -->
+<rect x="600" y="4650" width="450" height="300" rx="0" 
+style="stroke:#803000;stroke-width:15;
+stroke-linejoin:miter; stroke-linecap:butt;
+fill:#e5d5cc;
+"/>
+<!-- Line -->
+<polygon points="525,1500
+525,5025
+6375,5025
+6375,4650
+8175,4650
+8175,1500
+525,1500
+" style="stroke:#000000;stroke-width:15;
+stroke-linejoin:miter; stroke-linecap:butt;
+"/>
+<!-- Line: box -->
+<rect x="600" y="2775" width="7500" height="300" rx="105" 
+style="stroke:#8f008f;stroke-width:15;
+stroke-linejoin:miter; stroke-linecap:butt;
+"/>
+<!-- Line: box -->
+<rect x="600" y="2400" width="7500" height="300" rx="105" 
+style="stroke:#8f008f;stroke-width:15;
+stroke-linejoin:miter; stroke-linecap:butt;
+"/>
+<!-- Line: box -->
+<rect x="600" y="2025" width="7500" height="300" rx="105" 
+style="stroke:#8f008f;stroke-width:15;
+stroke-linejoin:miter; stroke-linecap:butt;
+"/>
+<!-- Line: box -->
+<rect x="600" y="1650" width="7500" height="300" rx="105" 
+style="stroke:#8f008f;stroke-width:15;
+stroke-linejoin:miter; stroke-linecap:butt;
+"/>
+<!-- Line: box -->
+<rect x="600" y="3150" width="7500" height="300" rx="105" 
+style="stroke:#8f008f;stroke-width:15;
+stroke-linejoin:miter; stroke-linecap:butt;
+"/>
+<!-- Line: box -->
+<rect x="600" y="3525" width="7500" height="300" rx="105" 
+style="stroke:#8f008f;stroke-width:15;
+stroke-linejoin:miter; stroke-linecap:butt;
+"/>
+<!-- Line -->
+<polyline points="375,1533
+375,4992
+" style="stroke:#000000;stroke-width:15;
+stroke-linejoin:miter; stroke-linecap:butt;
+"/>
+<!-- Arrowhead on XXXpoint 375 1500 - 375 5055-->
+<polyline points="315 4782
+375 5022
+435 4782
+" style="stroke:#000000;stroke-width:15;stroke-miterlimit:8;
+"/>
+<!-- Arrowhead on XXXpoint 375 5025 - 375 1470-->
+<polyline points="435 1743
+375 1503
+315 1743
+" style="stroke:#000000;stroke-width:15;stroke-miterlimit:8;
+"/>
+<!-- Text -->
+<text xml:space="preserve" x="75" y="10500" fill="#000000"  font-family="Times" font-style="italic" font-weight="normal" font-size="192" text-anchor="start">* tob3 has one more 4 bytes field in the header (begining record number)</text>
+<!-- Text -->
+<text xml:space="preserve" x="3075" y="4125" fill="#803000"  font-family="Times" font-style="normal" font-weight="bold" font-size="192" text-anchor="middle">frame 1</text>
+<!-- Text -->
+<text xml:space="preserve" x="6975" y="4125" fill="#803000"  font-family="Times" font-style="normal" font-weight="bold" font-size="192" text-anchor="middle">frame 2</text>
+<!-- Text -->
+<text xml:space="preserve" x="6150" y="4500" fill="#803000"  font-family="Times" font-style="normal" font-weight="bold" font-size="192" text-anchor="middle">frame 3</text>
+<!-- Text -->
+<text xml:space="preserve" x="3600" y="4875" fill="#803000"  font-family="Times" font-style="normal" font-weight="bold" font-size="192" text-anchor="middle">frame 4</text>
+<!-- Text -->
+<text xml:space="preserve" x="8625" y="4500" fill="#803000"  font-family="Times" font-style="italic" font-weight="bold" font-size="192" text-anchor="start">binary content</text>
+<!-- Text -->
+<text xml:space="preserve" x="4275" y="1875" fill="#8f008f"  font-family="Times" font-style="normal" font-weight="bold" font-size="192" text-anchor="middle">header 1</text>
+<!-- Text -->
+<text xml:space="preserve" x="4275" y="2250" fill="#8f008f"  font-family="Times" font-style="normal" font-weight="bold" font-size="192" text-anchor="middle">header 2</text>
+<!-- Text -->
+<text xml:space="preserve" x="4275" y="2625" fill="#8f008f"  font-family="Times" font-style="normal" font-weight="bold" font-size="192" text-anchor="middle">header 3</text>
+<!-- Text -->
+<text xml:space="preserve" x="4275" y="3375" fill="#8f008f"  font-family="Times" font-style="normal" font-weight="bold" font-size="192" text-anchor="middle">header 5</text>
+<!-- Text -->
+<text xml:space="preserve" x="4275" y="3000" fill="#8f008f"  font-family="Times" font-style="normal" font-weight="bold" font-size="192" text-anchor="middle">header 4</text>
+<!-- Text -->
+<text xml:space="preserve" x="4275" y="3750" fill="#8f008f"  font-family="Times" font-style="normal" font-weight="bold" font-size="192" text-anchor="middle">header 6</text>
+<!-- Text -->
+<text xml:space="preserve" x="8700" y="2850" fill="#8f008f"  font-family="Times" font-style="italic" font-weight="bold" font-size="192" text-anchor="start">ascii header</text>
+<!-- Text -->
+<g transform="translate(225,3150) rotate(-90.00021046)" >
+<text xml:space="preserve" x="0" y="0" fill="#000000"  font-family="Times" font-style="italic" font-weight="bold" font-size="192" text-anchor="middle">whole file</text>
+</g><!-- Line: box -->
+<rect x="225" y="6975" width="1200" height="2400" rx="0" 
+style="stroke:#d10000;stroke-width:30;
+stroke-linejoin:miter; stroke-linecap:butt;
+fill:#ffffff;
+"/>
+<g style="stroke:#d10000; stroke-width:1" >
+<defs>
+<pattern id="tile1" x="0" y="0" width="200" height="200"
+         patternUnits="userSpaceOnUse">
+<path d="M 100 0 0 100" />
+<path d="M 200 0 0 200" />
+<path d="M 200 100 100 200" />
+</pattern>
+</defs>
+</g>
+<rect x="225" y="6975" width="1200" height="2400" rx="0" 
+style="stroke:#d10000;stroke-width:30;
+stroke-linejoin:miter; stroke-linecap:butt;
+fill:url(#tile1);
+"/>
+<!-- Line -->
+<polyline points="825,6975
+825,9375
+" style="stroke:#d10000;stroke-width:30;
+stroke-linejoin:miter; stroke-linecap:butt;
+stroke-dasharray:80 80;"/>
+<!-- Line: box -->
+<rect x="1425" y="6975" width="9600" height="2400" rx="0" 
+style="stroke:#008f00;stroke-width:30;
+stroke-linejoin:miter; stroke-linecap:butt;
+fill:#ffffff;
+"/>
+<g style="stroke:#008f00; stroke-width:1" >
+<defs>
+<pattern id="tile2" x="0" y="0" width="200" height="200"
+         patternUnits="userSpaceOnUse">
+<path d="M 100 0 200 100" />
+<path d="M 0 0 200 200" />
+<path d="M 0 100 100 200" />
+</pattern>
+</defs>
+</g>
+<rect x="1425" y="6975" width="9600" height="2400" rx="0" 
+style="stroke:#008f00;stroke-width:30;
+stroke-linejoin:miter; stroke-linecap:butt;
+fill:url(#tile2);
+"/>
+<!-- Line: box -->
+<rect x="11025" y="6975" width="1200" height="2400" rx="0" 
+style="stroke:#00008f;stroke-width:30;
+stroke-linejoin:miter; stroke-linecap:butt;
+fill:#ffffff;
+"/>
+<g style="stroke:#00008f; stroke-width:1" >
+<defs>
+<pattern id="tile3" x="0" y="0" width="200" height="200"
+         patternUnits="userSpaceOnUse">
+<path d="M 100 0 0 100" />
+<path d="M 200 0 0 200" />
+<path d="M 200 100 100 200" />
+</pattern>
+</defs>
+</g>
+<rect x="11025" y="6975" width="1200" height="2400" rx="0" 
+style="stroke:#00008f;stroke-width:30;
+stroke-linejoin:miter; stroke-linecap:butt;
+fill:url(#tile3);
+"/>
+<!-- Line -->
+<polyline points="11625,6975
+11625,9375
+" style="stroke:#00008f;stroke-width:30;
+stroke-linejoin:miter; stroke-linecap:butt;
+stroke-dasharray:80 80;"/>
+<!-- Line: box -->
+<rect x="1500" y="7050" width="2250" height="2250" rx="0" 
+style="stroke:#008f8f;stroke-width:30;
+stroke-linejoin:miter; stroke-linecap:butt;
+"/>
+<!-- Line: box -->
+<rect x="3900" y="7050" width="2250" height="2250" rx="0" 
+style="stroke:#008f8f;stroke-width:30;
+stroke-linejoin:miter; stroke-linecap:butt;
+"/>
+<!-- Line: box -->
+<rect x="6300" y="7050" width="2250" height="2250" rx="0" 
+style="stroke:#008f8f;stroke-width:30;
+stroke-linejoin:miter; stroke-linecap:butt;
+"/>
+<!-- Line: box -->
+<rect x="8700" y="7050" width="2250" height="2250" rx="0" 
+style="stroke:#008f8f;stroke-width:30;
+stroke-linejoin:miter; stroke-linecap:butt;
+"/>
+<!-- Line -->
+<polyline points="1725,7050
+1725,9300
+" style="stroke:#008f8f;stroke-width:30;
+stroke-linejoin:miter; stroke-linecap:butt;
+stroke-dasharray:80 80;"/>
+<!-- Line -->
+<polyline points="2025,7050
+2025,9300
+" style="stroke:#008f8f;stroke-width:30;
+stroke-linejoin:miter; stroke-linecap:butt;
+stroke-dasharray:80 80;"/>
+<!-- Line -->
+<polyline points="2325,7050
+2325,9300
+" style="stroke:#008f8f;stroke-width:30;
+stroke-linejoin:miter; stroke-linecap:butt;
+stroke-dasharray:80 80;"/>
+<!-- Line -->
+<polyline points="2625,7050
+2625,9300
+" style="stroke:#008f8f;stroke-width:30;
+stroke-linejoin:miter; stroke-linecap:butt;
+stroke-dasharray:80 80;"/>
+<!-- Line -->
+<polyline points="2925,7050
+2925,9300
+" style="stroke:#008f8f;stroke-width:30;
+stroke-linejoin:miter; stroke-linecap:butt;
+stroke-dasharray:80 80;"/>
+<!-- Line -->
+<polyline points="3225,7050
+3225,9300
+" style="stroke:#008f8f;stroke-width:30;
+stroke-linejoin:miter; stroke-linecap:butt;
+stroke-dasharray:80 80;"/>
+<!-- Line -->
+<polyline points="3450,7050
+3450,9300
+" style="stroke:#008f8f;stroke-width:30;
+stroke-linejoin:miter; stroke-linecap:butt;
+stroke-dasharray:80 80;"/>
+<!-- Line -->
+<polyline points="1425,9450
+1425,9900
+" style="stroke:#000000;stroke-width:15;
+stroke-linejoin:miter; stroke-linecap:round;
+stroke-dasharray:10 60;"/>
+<!-- Line -->
+<polyline points="150,9450
+150,9900
+" style="stroke:#000000;stroke-width:15;
+stroke-linejoin:miter; stroke-linecap:round;
+stroke-dasharray:10 60;"/>
+<!-- Line -->
+<polyline points="11025,9450
+11025,9900
+" style="stroke:#000000;stroke-width:15;
+stroke-linejoin:miter; stroke-linecap:round;
+stroke-dasharray:10 60;"/>
+<!-- Line -->
+<polyline points="12300,9450
+12300,9900
+" style="stroke:#000000;stroke-width:15;
+stroke-linejoin:miter; stroke-linecap:round;
+stroke-dasharray:10 60;"/>
+<!-- Line -->
+<polyline points="150,6450
+150,6900
+" style="stroke:#000000;stroke-width:15;
+stroke-linejoin:miter; stroke-linecap:round;
+stroke-dasharray:10 60;"/>
+<!-- Line -->
+<polyline points="1425,6450
+1425,6900
+" style="stroke:#000000;stroke-width:15;
+stroke-linejoin:miter; stroke-linecap:round;
+stroke-dasharray:10 60;"/>
+<!-- Line -->
+<polyline points="11025,6450
+11025,6900
+" style="stroke:#000000;stroke-width:15;
+stroke-linejoin:miter; stroke-linecap:round;
+stroke-dasharray:10 60;"/>
+<!-- Line -->
+<polyline points="12300,6450
+12300,6900
+" style="stroke:#000000;stroke-width:15;
+stroke-linejoin:miter; stroke-linecap:round;
+stroke-dasharray:10 60;"/>
+<!-- Text -->
+<g transform="translate(1725,8175) rotate(-90.00021046)" >
+<text xml:space="preserve" x="0" y="0" fill="#008f8f"  font-family="Times" font-style="normal" font-weight="bold" font-size="192" text-anchor="middle">field 1</text>
+</g><!-- Text -->
+<g transform="translate(2025,8175) rotate(-90.00021046)" >
+<text xml:space="preserve" x="0" y="0" fill="#008f8f"  font-family="Times" font-style="normal" font-weight="bold" font-size="192" text-anchor="middle">field 2</text>
+</g><!-- Text -->
+<g transform="translate(2325,8250) rotate(-90.00021046)" >
+<text xml:space="preserve" x="0" y="0" fill="#008f8f"  font-family="Times" font-style="normal" font-weight="bold" font-size="192" text-anchor="middle">...</text>
+</g><!-- Text -->
+<g transform="translate(5100,8175) rotate(-90.00021046)" >
+<text xml:space="preserve" x="0" y="0" fill="#008f8f"  font-family="Times" font-style="normal" font-weight="bold" font-size="192" text-anchor="middle">data line</text>
+</g><!-- Text -->
+<g transform="translate(7425,8175) rotate(-90.00021046)" >
+<text xml:space="preserve" x="0" y="0" fill="#008f8f"  font-family="Times" font-style="normal" font-weight="bold" font-size="192" text-anchor="middle">data line</text>
+</g><!-- Text -->
+<g transform="translate(9900,8175) rotate(-90.00021046)" >
+<text xml:space="preserve" x="0" y="0" fill="#008f8f"  font-family="Times" font-style="normal" font-weight="bold" font-size="192" text-anchor="middle">data line</text>
+</g><!-- Text -->
+<g transform="translate(1200,8175) rotate(-90.00021046)" >
+<text xml:space="preserve" x="0" y="0" fill="#d10000"  font-family="Times" font-style="normal" font-weight="bold" font-size="192" text-anchor="middle">subsecond</text>
+</g><!-- Text -->
+<g transform="translate(600,8175) rotate(-90.00021046)" >
+<text xml:space="preserve" x="0" y="0" fill="#d10000"  font-family="Times" font-style="normal" font-weight="bold" font-size="192" text-anchor="middle">timestamp</text>
+</g><!-- Text -->
+<g transform="translate(11400,8175) rotate(-90.00021046)" >
+<text xml:space="preserve" x="0" y="0" fill="#00008f"  font-family="Times" font-style="normal" font-weight="bold" font-size="192" text-anchor="middle">offset/flags</text>
+</g><!-- Text -->
+<g transform="translate(12000,8175) rotate(-90.00021046)" >
+<text xml:space="preserve" x="0" y="0" fill="#00008f"  font-family="Times" font-style="normal" font-weight="bold" font-size="192" text-anchor="middle">validation</text>
+</g><!-- Text -->
+<text xml:space="preserve" x="11625" y="9750" fill="#00008f"  font-family="Times" font-style="normal" font-weight="bold" font-size="192" text-anchor="middle">footer</text>
+<!-- Text -->
+<text xml:space="preserve" x="825" y="9750" fill="#d10000"  font-family="Times" font-style="normal" font-weight="bold" font-size="192" text-anchor="middle">header</text>
+<!-- Text -->
+<text xml:space="preserve" x="5925" y="9750" fill="#008f00"  font-family="Times" font-style="normal" font-weight="bold" font-size="192" text-anchor="middle">data segment</text>
+<!-- Text -->
+<text xml:space="preserve" x="825" y="6750" fill="#d10000"  font-family="Times" font-style="normal" font-weight="bold" font-size="192" text-anchor="middle">4+4</text>
+<!-- Text -->
+<text xml:space="preserve" x="11625" y="6750" fill="#00008f"  font-family="Times" font-style="normal" font-weight="bold" font-size="192" text-anchor="middle">4+4</text>
+<!-- Text -->
+<text xml:space="preserve" x="5925" y="6750" fill="#008f00"  font-family="Times" font-style="normal" font-weight="bold" font-size="192" text-anchor="middle">n*data line size</text>
+<!-- Line -->
+<polyline points="183,6300
+12267,6300
+" style="stroke:#000000;stroke-width:15;
+stroke-linejoin:miter; stroke-linecap:butt;
+"/>
+<!-- Arrowhead on XXXpoint 150 6300 - 12330 6300-->
+<polyline points="12057 6360
+12297 6300
+12057 6240
+" style="stroke:#000000;stroke-width:15;stroke-miterlimit:8;
+"/>
+<!-- Arrowhead on XXXpoint 12300 6300 - 120 6300-->
+<polyline points="393 6240
+153 6300
+393 6360
+" style="stroke:#000000;stroke-width:15;stroke-miterlimit:8;
+"/>
+<!-- Text -->
+<text xml:space="preserve" x="5850" y="6225" fill="#000000"  font-family="Times" font-style="italic" font-weight="bold" font-size="192" text-anchor="middle">frame size</text>
+<!-- Text -->
+<text xml:space="preserve" x="150" y="5850" fill="#000000"  font-family="Palatino" font-style="italic" font-weight="bold" font-size="288" text-anchor="start">Frame structure</text>
+<!-- Text -->
+<text xml:space="preserve" x="75" y="1275" fill="#000000"  font-family="Palatino" font-style="italic" font-weight="bold" font-size="288" text-anchor="start">File structure</text>
+<!-- Text -->
+<text xml:space="preserve" x="6525" y="0" fill="#000000"  font-family="Palatino" font-style="italic" font-weight="bold" font-size="576" text-anchor="middle">Campbell Tob2/tob3 file structure</text>
+</g>
+</svg>
