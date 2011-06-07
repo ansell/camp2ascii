@@ -3,6 +3,8 @@
 /camp2ascii.c -text
 /camp2ascii.h -text
 /camp2ascii.lsm -text
+doc/call_graph.fig -text
+doc/call_graph.pdf -text
 doc/structure.fig -text
 doc/structure.png -text
 /files.c -text
