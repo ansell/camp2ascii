@@ -3,6 +3,8 @@
 /camp2ascii.c -text
 /camp2ascii.h -text
 /camp2ascii.lsm -text
+doc/structure.fig -text
+doc/structure.png -text
 /files.c -text
 /files.h -text
 /frame_read.c -text
