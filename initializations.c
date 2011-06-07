@@ -51,7 +51,7 @@ int load_defaults(config_structure *config){
 	snprintf(config->bool_true,MAX_FORMAT,"1");
 	snprintf(config->bool_false,MAX_FORMAT,"0");
 	snprintf(config->nsec_format,MAX_FORMAT,"\"%%s.%%09d\"");
-	snprintf(config->NAN,MAX_FORMAT,"\"NAN\"");
+	snprintf(config->NANs,MAX_FORMAT,"\"NAN\"");
 	snprintf(config->output_name,MAX_FORMAT,STDOUT);
 	config->stop_cond=0;
 	config->tob32=0;
@@ -80,7 +80,7 @@ int style_outputs(config_structure *config,char *style){
 		snprintf(config->bool_true,MAX_FORMAT,"1");
 		snprintf(config->bool_false,MAX_FORMAT,"0");
 		snprintf(config->nsec_format,MAX_FORMAT,"%%s.%%09d");
-		snprintf(config->NAN,MAX_FORMAT,"-9999");
+		snprintf(config->NANs,MAX_FORMAT,"-9999");
 	}
 	if(strncmp(style,"tob32",5)==0) {
 		snprintf(config->separator,MAX_FORMAT,",");
@@ -95,7 +95,7 @@ int style_outputs(config_structure *config,char *style){
 		snprintf(config->bool_true,MAX_FORMAT,"1");
 		snprintf(config->bool_false,MAX_FORMAT,"0");
 		snprintf(config->nsec_format,MAX_FORMAT,"\"%%s.%%09d\"");
-		snprintf(config->NAN,MAX_FORMAT,"\"NAN\"");
+		snprintf(config->NANs,MAX_FORMAT,"\"NAN\"");
 	}
 	if(strncmp(style,"excel",5)==0) {
 		snprintf(config->separator,MAX_FORMAT,",");
@@ -108,9 +108,9 @@ int style_outputs(config_structure *config,char *style){
 		snprintf(config->strings_beg,MAX_FORMAT,"\"");
 		snprintf(config->strings_end,MAX_FORMAT,"\"");
 		snprintf(config->bool_true,MAX_FORMAT,"1");
-		snprintf(config->bool_false,MAX_FORMAT,"0");	
+		snprintf(config->bool_false,MAX_FORMAT,"0");
 		snprintf(config->nsec_format,MAX_FORMAT,"%%s.%%09d");
-		snprintf(config->NAN,MAX_FORMAT,"NaN");
+		snprintf(config->NANs,MAX_FORMAT,"NaN");
 	}
 	if(strncmp(style,"sql",3)==0) {
 		snprintf(config->separator,MAX_FORMAT,",");
@@ -124,9 +124,9 @@ int style_outputs(config_structure *config,char *style){
 		snprintf(config->strings_beg,MAX_FORMAT,"\"");
 		snprintf(config->strings_end,MAX_FORMAT,"\"");
 		snprintf(config->bool_true,MAX_FORMAT,"TRUE");
-		snprintf(config->bool_false,MAX_FORMAT,"FALSE");	
+		snprintf(config->bool_false,MAX_FORMAT,"FALSE");
 		snprintf(config->nsec_format,MAX_FORMAT,"%%s.%%09d");
-		snprintf(config->NAN,MAX_FORMAT,"'NULL'");
+		snprintf(config->NANs,MAX_FORMAT,"'NULL'");
 	}
 
 	return EXIT_SUCCESS;
@@ -137,7 +137,7 @@ int read_cmd_line(int argc,char **argv,config_structure *config){
 /* and sets the config structure accordingly */
 	int c;
 	int status=0;
-	
+
 	if (argc == 1) {
 		fprintf(stderr,"%s: use -help for help\n",argv[0]);
 		return EXIT_FAILURE;
@@ -244,7 +244,7 @@ int open_files(config_structure *config){
 			return EXIT_FAILURE;
 		}
 	}
-	
+
 	//HACK
 	//if(setvbuf(config->input, NULL, _IOFBF, (size_t)(8192*8192)) != EXIT_SUCCESS) fprintf(stderr,"Error allocating buffer\n");
 	//if(setvbuf(config->output, NULL, _IOFBF, (size_t)(8192*8192)) != EXIT_SUCCESS) fprintf(stderr,"Error allocating buffer\n");

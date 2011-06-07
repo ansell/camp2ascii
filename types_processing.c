@@ -25,7 +25,7 @@ int16_t ReadInt2(frame_structure *frame) {
 /* This function reads an int coded on 2 bytes */
 /* It also updates the char index to point to the next byte */
 	int16_t result;
-	
+
 	#ifdef BIGENDIAN
 		result=(int16_t)((frame->raw[frame->cindex+0] << 8) + frame->raw[frame->cindex+1]);
 	#else
@@ -39,7 +39,7 @@ uint16_t ReadUInt2(frame_structure *frame) {
 /* This function reads an int coded on 2 bytes */
 /* It also updates the char index to point to the next byte */
 	uint16_t result;
-	
+
 	#ifdef BIGENDIAN
 		result=(uint16_t)((frame->raw[frame->cindex+0] << 8) + frame->raw[frame->cindex+1]);
 	#else
@@ -53,7 +53,7 @@ int16_t ReadInt2Swap(frame_structure *frame) {
 /* This function reads an int coded on 2 bytes */
 /* It also updates the char index to point to the next byte */
 	int16_t result;
-	
+
 	#ifndef BIGENDIAN
 		result=(int16_t)((frame->raw[frame->cindex+0] << 8) + frame->raw[frame->cindex+1]);
 	#else
@@ -67,7 +67,7 @@ uint16_t ReadUInt2Swap(frame_structure *frame) {
 /* This function reads an int coded on 2 bytes */
 /* It also updates the char index to point to the next byte */
 	uint16_t result;
-	
+
 	#ifndef BIGENDIAN
 		result=(uint16_t)((frame->raw[frame->cindex+0] << 8) + frame->raw[frame->cindex+1]);
 	#else
@@ -81,14 +81,14 @@ int32_t ReadInt4(frame_structure *frame) {
 /* This function reads an int coded on 4 bytes */
 /* It also updates the char index to point to the next byte */
 	int32_t result;
-	
+
 	#ifdef BIGENDIAN
 		result=(int32_t)( frame->raw[frame->cindex+3] + (frame->raw[frame->cindex+2] << 8) + (frame->raw[frame->cindex+1] << 16) + (frame->raw[frame->cindex+0] << 24) );
 	#else
 		result=(int32_t)( frame->raw[frame->cindex+0] + (frame->raw[frame->cindex+1] << 8) + (frame->raw[frame->cindex+2] << 16) + (frame->raw[frame->cindex+3] << 24) );
 	#endif
 	frame->cindex += 4;
-	
+
 	return result;
 }
 
@@ -96,14 +96,14 @@ uint32_t ReadUInt4(frame_structure *frame) {
 /* This function reads an int coded on 4 bytes */
 /* It also updates the char index to point to the next byte */
 	uint32_t result;
-	
+
 	#ifdef BIGENDIAN
 		result=(uint32_t)( frame->raw[frame->cindex+3] + (frame->raw[frame->cindex+2] << 8) + (frame->raw[frame->cindex+1] << 16) + (frame->raw[frame->cindex+0] << 24) );
 	#else
 		result=(uint32_t)( frame->raw[frame->cindex+0] + (frame->raw[frame->cindex+1] << 8) + (frame->raw[frame->cindex+2] << 16) + (frame->raw[frame->cindex+3] << 24) );
 	#endif
 	frame->cindex += 4;
-	
+
 	return result;
 }
 
@@ -111,14 +111,14 @@ int32_t ReadInt4Swap(frame_structure *frame) {
 /* This function reads an int coded on 4 bytes */
 /* It also updates the char index to point to the next byte */
 	int32_t result;
-	
+
 	#ifdef BIGENDIAN
 		result=(int32_t)( frame->raw[frame->cindex+0] + (frame->raw[frame->cindex+1] << 8) + (frame->raw[frame->cindex+2] << 16) + (frame->raw[frame->cindex+3] << 24) );
 	#else
 		result=(int32_t)( frame->raw[frame->cindex+3] + (frame->raw[frame->cindex+2] << 8) + (frame->raw[frame->cindex+1] << 16) + (frame->raw[frame->cindex+0] << 24) );
 	#endif
 	frame->cindex += 4;
-	
+
 	return result;
 }
 
@@ -126,14 +126,14 @@ uint32_t ReadUInt4Swap(frame_structure *frame) {
 /* This function reads an int coded on 4 bytes */
 /* It also updates the char index to point to the next byte */
 	uint32_t result;
-	
+
 	#ifdef BIGENDIAN
 		result=(uint32_t)( frame->raw[frame->cindex+0] + (frame->raw[frame->cindex+1] << 8) + (frame->raw[frame->cindex+2] << 16) + (frame->raw[frame->cindex+3] << 24) );
 	#else
 		result=(uint32_t)( frame->raw[frame->cindex+3] + (frame->raw[frame->cindex+2] << 8) + (frame->raw[frame->cindex+1] << 16) + (frame->raw[frame->cindex+0] << 24) );
 	#endif
 	frame->cindex += 4;
-	
+
 	return result;
 }
 
@@ -194,12 +194,12 @@ float32_t ReadFloat4Swap(frame_structure *frame) {
 
 // SPECIAL FLOATING POINTS
 int Read_FP2(frame_structure *frame,const config_structure *config) {
-	//2 bytes float 
+	//2 bytes float
 	SIresult=(int16_t)ReadInt2Swap(frame);
 	sign     = ((0x8000 & SIresult) >> 15 );
 	exponent = ((0x6000 & SIresult) >> 13 );
 	mantissa = ((0x1FFF & SIresult)       );
-	switch(exponent) { 
+	switch(exponent) {
 		case 0: Fresult=(float)mantissa;
 		break;
 		case 1: Fresult=(float)mantissa*1e-1;
@@ -209,9 +209,9 @@ int Read_FP2(frame_structure *frame,const config_structure *config) {
 		default: Fresult=(float)mantissa*1e-3;
 	}
 	if(Fresult>=frame->fp2_nan || isnan(Fresult))
-		fprintf(config->output,config->NAN);
+		fprintf(config->output,config->NANs);
 	else {
-		if(sign ==0) 
+		if(sign ==0)
 			fprintf(config->output,config->fp2_format,Fresult);
 		else
 			fprintf(config->output,config->fp2_format,-Fresult);
@@ -233,9 +233,9 @@ int Read_FP4(frame_structure *frame,const config_structure *config) {
 #endif
 	fprintf(config->output,"\"FP4\"");
 	/*if(Fresult>=frame->fp4_nan || isnan(Fresult))
-		fprintf(config->output,config->NAN,config->separator);
+		fprintf(config->output,config->NANs,config->separator);
 	else {
-		if(sign ==0) 
+		if(sign ==0)
 			fprintf(config->output,config->fp4_format,config->separator,Fresult);
 		else
 			fprintf(config->output,config->fp4_format,config->separator,-Fresult);
@@ -249,10 +249,10 @@ int Read_IEEE4(frame_structure *frame,const config_structure *config) {
 	//IEEE4 & L -> Little endian		LSB
 	Fresult=ReadFloat4(frame);
 	if(isnan(Fresult))
-		fprintf(config->output,config->NAN);
+		fprintf(config->output,config->NANs);
 	else
 		fprintf(config->output,config->floats_format,Fresult);
-	
+
 	return EXIT_SUCCESS;
 }
 
@@ -260,10 +260,10 @@ int Read_IEEE4B(frame_structure *frame,const config_structure *config) {
 	//IEEE4, Big endian version		MSB
 	Fresult=ReadFloat4Swap(frame);
 	if(isnan(Fresult))
-		fprintf(config->output,config->NAN);
+		fprintf(config->output,config->NANs);
 	else
 		fprintf(config->output,config->floats_format,Fresult);
-	
+
 	return EXIT_SUCCESS;
 }
 
@@ -272,11 +272,11 @@ int Read_USHORT(frame_structure *frame,const config_structure *config) {
 	//2 bytes unsigned int			LSB
 	Iresult=(int32_t)ReadUInt2(frame);
 	if(Iresult>=frame->uint2_nan || isnan(Iresult))
-		fprintf(config->output,config->NAN);
+		fprintf(config->output,config->NANs);
 	else {
 		fprintf(config->output,config->ints_format,Iresult);
 	}
-	
+
 	return EXIT_SUCCESS;
 }
 
@@ -284,11 +284,11 @@ int Read_SHORT(frame_structure *frame,const config_structure *config) {
 	//2 bytes signed int			LSB
 	Iresult=(int32_t)ReadInt2(frame);
 	if(Iresult>=frame->uint2_nan || isnan(Iresult))
-		fprintf(config->output,config->NAN);
+		fprintf(config->output,config->NANs);
 	else {
 		fprintf(config->output,config->ints_format,Iresult);
 	}
-	
+
 	return EXIT_SUCCESS;
 }
 
@@ -296,11 +296,11 @@ int Read_UINT2(frame_structure *frame,const config_structure *config) {
 	//2 bytes unsigned int			MSB
 	Iresult=(int32_t)ReadUInt2Swap(frame);
 	if(Iresult>=frame->uint2_nan || isnan(Iresult))
-		fprintf(config->output,config->NAN);
+		fprintf(config->output,config->NANs);
 	else {
 		fprintf(config->output,config->ints_format,Iresult);
 	}
-	
+
 	return EXIT_SUCCESS;
 }
 
@@ -308,39 +308,39 @@ int Read_INT2(frame_structure *frame,const config_structure *config) {
 	//2 bytes signed int			MSB
 	Iresult=(int32_t)ReadInt2Swap(frame);
 	if(SIresult>=frame->uint2_nan || isnan(Iresult))
-		fprintf(config->output,config->NAN);
+		fprintf(config->output,config->NANs);
 	else {
 		fprintf(config->output,config->ints_format,Iresult);
 	}
-	
+
 	return EXIT_SUCCESS;
 }
 
 int Read_UINT4(frame_structure *frame,const config_structure *config) {
 	//4 bytes unsigned int			MSB
 	fprintf(config->output,config->ints_format,ReadUInt4Swap(frame));
-	
+
 	return EXIT_SUCCESS;
 }
 
 int Read_INT4(frame_structure *frame,const config_structure *config) {
 	//4 bytes signed int				MSB
 	fprintf(config->output,config->ints_format,ReadInt4Swap(frame));
-	
+
 	return EXIT_SUCCESS;
 }
 
 int Read_ULONG(frame_structure *frame,const config_structure *config) {
 	//4 bytes unsigned int			LSB
 	fprintf(config->output,config->ints_format,ReadUInt4(frame));
-	
+
 	return EXIT_SUCCESS;
 }
 
 int Read_LONG(frame_structure *frame,const config_structure *config) {
 	//4 bytes signed int			LSB
 	fprintf(config->output,config->ints_format,ReadInt4(frame));
-	
+
 	return EXIT_SUCCESS;
 }
 
@@ -352,7 +352,7 @@ int Read_BOOL(frame_structure *frame,const config_structure *config) {
 	else
 		fprintf(config->output,config->bool_true);
 	frame->cindex += 1;
-	
+
 	return EXIT_SUCCESS;
 }
 
@@ -362,7 +362,7 @@ int Read_BOOL2(frame_structure *frame,const config_structure *config) {
 		fprintf(config->output,config->bool_false);
 	else
 		fprintf(config->output,config->bool_true);
-	
+
 	return EXIT_SUCCESS;
 }
 
@@ -372,7 +372,7 @@ int Read_BOOL4(frame_structure *frame,const config_structure *config) {
 		fprintf(config->output,config->bool_false);
 	else
 		fprintf(config->output,config->bool_true);
-	
+
 	return EXIT_SUCCESS;
 }
 
@@ -393,7 +393,7 @@ int Read_SecNano(frame_structure *frame,const config_structure *config) {
 	strftime(time_str,MAX_FIELD,config->time_format,gmtime(&time_offset));
 	//we print as {separator}{timestamp}.{nanoseconds}
 	fprintf(config->output,config->nsec_format,time_str,ReadUInt4(frame));
-	
+
 	return EXIT_SUCCESS;
 }
 
@@ -407,11 +407,11 @@ int Read_ASCII(frame_structure *frame,const config_structure *config) {
 		if(Cresult == 0) {//the end of the string has been reached
 			frame->cindex += count-1;
 			count=0;
-		} else 
+		} else
 			fprintf(config->output,"%c",Cresult);
 	}
 	fprintf(config->output,config->strings_end);
-	
+
 	return EXIT_SUCCESS;
 }
 

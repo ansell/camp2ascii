@@ -30,7 +30,7 @@ typedef struct frame_struct {
 	int size;				//size in bytes of the whole frame
 	int intended_size;			//intended size from datalogger
 	int val_stamp;				//to validate the frame when reading the footer
-	int comp_val_stamp;			//sometimes, the complement is used... 
+	int comp_val_stamp;			//sometimes, the complement is used...
 	double subframe_res;			//time resolution for individual lines within the frame
 	int t0;					//file creation time (since EPOCH)
 	int ringrecord;				//record number written when the file was last rung
@@ -59,7 +59,7 @@ typedef struct frame_struct {
 //Frame footer
 	char footer_size;			//size of the footer
 	int footer_validation;			//to validate the frame, to compare with header footer
-	int footer_offset;			//either 0 (TOB3 major frame), total size of the minor frame 
+	int footer_offset;			//either 0 (TOB3 major frame), total size of the minor frame
 						//or nb of frames without minor frames (TOB2 major frame)
 	char flag_f;				//file mark: all records in frame occured before the mark
 	char flag_r;				//0 for TOB2, card removed after this frame (TOB3)
@@ -95,7 +95,7 @@ typedef struct config_struct {
 	char bool_false[MAX_FORMAT];		//formatting of booleans when false
 	char nsec_format[MAX_FORMAT];		//formatting of NSec fields
 
-	char NAN[MAX_FORMAT];			//what to display for Not A Number
+	char NANs[MAX_FORMAT];			//what to display for Not A Number
 
 //to keep track of current processing
 	long int nb_lines_read;			//number of data lines read
@@ -113,7 +113,7 @@ typedef struct header_struct {
 
 //info for the processing of the fields: it would look nicier in frame structure, but it would be a recursive definition!
 	//table of function pointers, pointing to the function needed for the correct processing of such a data type
-	//int (*field_processing[MAX_FIELD])(frame_structure *,const config_structure *);	
+	//int (*field_processing[MAX_FIELD])(frame_structure *,const config_structure *);
 } header_structure;
 
 #endif
