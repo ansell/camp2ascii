@@ -1,3 +1,4 @@
 *.o
 bin/camp2ascii
 *~
+.tmp
