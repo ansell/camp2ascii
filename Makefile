@@ -52,7 +52,7 @@ OBJECTS = 	generic_functions.o \
 		types_processing.o \
 		camp2ascii.o
 DESTDIR  = 
-TARGET   = camp2ascii
+TARGET   = bin/camp2ascii
 
 first: all
 ####### Implicit rules
