@@ -1,11 +1,11 @@
-Introduction and usage of camp2ascii
+# Introduction and usage of camp2ascii
 
-What is it?
+## What is it?
 
 The data loggers made by Campbell Scientific store their data in a proprietary binary file format. The physical support is either a memory card or it is transmitted via a GSM modem, etc 
-The tools presented here is an open source tool (covered by the [http://www.fsf.org/licensing/licenses/gpl.html](GPL license)) that allows to extract the data contained within these binary files. The output can be formatted to suit your needs and you can very precisely control how much data you want to extract
+The tools presented here is an open source tool (covered by the [GPL license](http://www.fsf.org/licensing/licenses/gpl.html)) that allows to extract the data contained within these binary files. The output can be formatted to suit your needs and you can very precisely control how much data you want to extract
 
-How to use it?
+## How to use it?
 
 This is a command line program. Running it with the "-h" option shows a quick help explaining which options are available. Namely, the following options can be used:
 
@@ -26,11 +26,11 @@ For example, to extract data from file mydata.tob using the default setup, use t
 
     camp2ascii mydata.tob -o mydata.asc
 
-TOB data structure
+# TOB data structure
 
 Some explanations might be needed... First, you have to know that all data is enclosed within frames in such a binary file. A frame contains a header (frame timestamp, etc), a data segment (the data we are interested in) and a footer (flags, validation code...). A frame might contain several physical timestamps, they will be calculated by camp2ascii if needed. At first, when inserting a new memory card, the data logger fills the card with one big file that contains only empty/invalid frames. Then, when doing the data acquisition, the frames are filled and marked as valid frames. If the memory card gets full, the data logger will write over the begining of the file. The "-c" option forces the extraction of frames according to what the original tool would do (thus not outputing all valid frames). On the other hand, the tools usualy given by Campbell Scientific don't output all the frames, specifically when the begining of the file has been written over. Because extracting all the frames would show the (potentially) newest data first (at the begining of the file) and then the older one (not yet written over by the data logger), the "-s" option allows you to ask for a sorted extraction: the old section of the file is extracted first, then a new pass is done in order to extract the newest section of the file.
 
-Sources:
+# Sources:
 
 http://models.slf.ch/p/camp2ascii/page/Usage/
 
