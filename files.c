@@ -139,10 +139,10 @@ int read_header_line2(char fields[NB_MAX_FIELDS][MAX_FIELD],int nb_fields,frame_
 	}
 	if(frame->type==IS_TOB3) {
 		if(nb_fields<8) {
-			fprintf(stderr,"ERROR (%s:%d): not enough fields at header line 2 for TOB3! Expected 6 fields, found %d.\n",__FILE__,__LINE__, nb_fields);
+			fprintf(stderr,"ERROR (%s:%d): not enough fields at header line 2 for TOB3! Expected 8 fields, found %d.\n",__FILE__,__LINE__, nb_fields);
 			return EXIT_FAILURE;
 		}
-		if(nb_fields>8) fprintf(stderr,"WARNING (%s:%d): too many fields at header line 2 for TOB3! Expected 6 fields, found %d.\n",__FILE__,__LINE__, nb_fields);
+		if(nb_fields>8) fprintf(stderr,"WARNING (%s:%d): too many fields at header line 2 for TOB3! Expected 8 fields, found %d.\n",__FILE__,__LINE__, nb_fields);
 	}
 
 	//strncpy(frame->table_name,fields[0],MAX_FIELD);			//name of the table
